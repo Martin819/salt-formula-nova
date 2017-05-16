@@ -1,6 +1,5 @@
 nova:
   compute:
-    version: liberty
     enabled: true
     vcpu_pin_set: 1,2,3
     hugepages:

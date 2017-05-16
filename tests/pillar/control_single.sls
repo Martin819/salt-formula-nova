@@ -2,7 +2,6 @@ nova:
   controller:
     enabled: true
     networking: contrail
-    version: liberty
     security_group: false
     vncproxy_url: 127.0.0.1
     vnc_keymap: en-gb

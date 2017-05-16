@@ -19,6 +19,10 @@ install:
 env:
   - PLATFORM=trevorj/salty-whales:trusty
   - PLATFORM=trevorj/salty-whales:xenial
+  - VERSION=mitaka PLATFORM=trevorj/salty-whales:xenial
+  - VERSION=ocata PLATFORM=trevorj/salty-whales:xenial
+  - VERSION=mitaka PLATFORM=trevorj/salty-whales:trusty
+  - VERSION=ocata PLATFORM=trevorj/salty-whales:trusty
 
 before_script:
   - set -o pipefail

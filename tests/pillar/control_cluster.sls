@@ -2,7 +2,6 @@ nova:
   controller:
     enabled: true
     networking: default
-    version: liberty
     vncproxy_url: 127.0.0.1
     vnc_keymap: en-gb
     security_group: false

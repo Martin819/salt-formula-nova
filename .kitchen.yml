@@ -29,6 +29,10 @@ provisioner:
         "*":
           - linux_repo_openstack
           - nova
+    nova.sls:
+      nova:
+        compute:
+          version: <%= ENV['VERSION'] || 'liberty' %>
   pillars-from-files:
     linux_repo_openstack.sls: tests/pillar/repo_mcp_openstack.sls
 

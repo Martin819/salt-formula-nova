@@ -1,6 +1,5 @@
 nova:
   compute:
-    version: liberty
     enabled: true
     virtualization: kvm
     heal_instance_info_cache_interval: 60
